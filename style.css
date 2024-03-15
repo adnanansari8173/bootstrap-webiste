@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  height: 100vh;
+}
+.navbar-brand {
+  padding: 15px;
+  margin-left: 20px;
+}
+
+.main h1 {
+  align-items: center;
+  text-align: center;
+  font-size: 50px;
+  font-weight: 600;
+  margin-top: 40px;
+}
+.navigation a {
+  text-decoration: none;
+  color: black;
+}
+.line {
+  margin-left: 600px;
+  display: flex;
+  justify-content: center;
+  width: 100px;
+  border: 2px solid orange;
+  margin-top: 20px;
+}
+.para {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  color: rgb(85, 59, 59);
+  text-align: center;
+}
+.underline-orange {
+  position: relative;
+}
+.underline-orange::after {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100px;
+  height: 2px;
+  background-color: orange;
+  display: block;
+}
+.underline-white {
+  position: relative;
+}
+.underline-white::after {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100px;
+  height: 2px;
+  background-color: white;
+  display: block;
+  margin-top: 20px;
+}
+.img-hover:hover {
+  opacity: 0.8;
+  transition: opacity 0.5s ease;
+  transform: scale(1.1);
+}
+
+.list-inline-item:hover {
+  border-bottom: 2px solid orange;
+}
+
+.work-experience {
+  width: 100%;
+  background-color: azure;
+  padding: 70px;
+}
+
+.para-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  color: rgb(85, 59, 59);
+  text-align: center;
+}
+
+.project-experience {
+  width: 80%;
+  background-color: white;
+  margin-top: 50px;
+}
+.work-group-1 {
+  border-right: 1px solid orange;
+  padding: 40px;
+  text-align: start;
+  margin-left: 20px;
+}
+.work-group-2 {
+  border-right: 1px solid orange;
+  padding: 40px;
+  text-align: start;
+  margin-left: 20px;
+}
+.work-group-3 {
+  padding: 40px;
+  text-align: start;
+  margin-left: 20px;
+}
+.project-idea {
+  width: 100%;
+  background-color: orange;
+  color: white;
+  padding: 70px;
+}
+
+.hire-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hire-button button {
+  padding: 10px;
+  background-color: white;
+  border: none;
+  outline: none;
+  color: orange;
+  border-radius: 5px;
+  font: 900;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.last-section {
+  width: 100%;
+  padding: 70px;
+}
+.last-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.social-media-logo .icon {
+  width: fit-content;
+  padding: 10px;
+  border-radius: 50%;
+  background-color: rgb(231, 231, 231);
+}
+footer {
+  text-align: center;
+  padding: 20px 0;
+  color: #6c757d;
+}
+
+footer span {
+  color: orange;
+}
